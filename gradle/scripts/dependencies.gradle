@@ -1,0 +1,4 @@
+ext.externalDependency = [
+    "rxjava" : "io.reactivex.rxjava2:rxjava:2.1.2"
+]
+ext.javaVersion = JavaVersion.VERSION_1_8

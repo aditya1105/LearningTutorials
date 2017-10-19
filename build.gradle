@@ -1,0 +1,20 @@
+group 'com.linkedin.adsharma'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply from: 'gradle/scripts/dependencies.gradle'
+apply from: 'gradle/scripts/idesSetup.gradle'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+allprojects {
+    apply plugin: 'org.gradle.java'
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
