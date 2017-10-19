@@ -12,7 +12,7 @@ public class HelloWorld {
 
     List<String> list = new ArrayList<>(5);
     new ArrayList<String>(5);
-
+    // Added some more useless comments
     System.out.println(list.toArray());
     /*Flowable.just("Hello world").subscribe(System.out::println);
 
